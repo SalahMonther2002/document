@@ -1,7 +1,7 @@
 
 import './App.css';
 import { useSelector, useDispatch } from 'react-redux';
-import { setContent } from './document/slice';
+import { setContent } from './document/Slice';
 import { useEffect } from 'react';
 import { io } from "socket.io-client"
 import Header from './Header';
